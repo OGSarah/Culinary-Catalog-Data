@@ -1,4 +1,4 @@
-# Culinary Catalog: Data Service
+# Culinary Catalog — Data Service
 
 Backing data for the [**Culinary Catalog**](https://github.com/OGSarah/Culinary-Catalog)
 iOS app: a set of versioned JSON feeds describing dessert recipes, served as
@@ -170,13 +170,9 @@ python scripts/generate.py --check  # validate only; non-zero exit if feeds are 
 
 - **Caching.** GitHub Pages is served through a CDN; published changes may take
   a minute or two to propagate. The client should not assume read-after-write.
-- **Assets.** Image URLs currently use deterministic placeholder images so feeds
-  always render; replace them with production photography in the master file as
-  it becomes available. `source_url` and `youtube_url` resolve to stable search
-  links that open correctly in a web view.
+- **Assets.** Image URLs point to TheMealDB's CDN (`/small` thumbnails and
+  `/large` full-size variants), the same imagery the dishes originate from.
+  `source_url` and `youtube_url` resolve to stable search links that open
+  correctly in a web view.
 - **Visibility.** The repository must be public for GitHub Pages on the free
   tier.
-
-## License
-
-Released under the [MIT License](LICENSE). © 2026 SarahUniverse

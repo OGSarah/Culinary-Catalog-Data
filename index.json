@@ -3,7 +3,7 @@
   "feeds": [
     {
       "path": "cuisine/american.json",
-      "count": 2
+      "count": 3
     },
     {
       "path": "cuisine/british.json",
@@ -15,7 +15,7 @@
     },
     {
       "path": "cuisine/italian.json",
-      "count": 2
+      "count": 1
     },
     {
       "path": "cuisine/malaysian.json",

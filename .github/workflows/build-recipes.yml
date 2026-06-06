@@ -1,0 +1,57 @@
+name: Build recipe feeds
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/recipes.master.json"
+      - "scripts/generate.py"
+      - ".github/workflows/build-recipes.yml"
+  pull_request:
+    paths:
+      - "data/recipes.master.json"
+      - "scripts/generate.py"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-recipes-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # On pull requests: validate only. Fails if data is invalid OR if the
+      # committed feeds don't match what the script would produce.
+      - name: Validate (PRs)
+        if: github.event_name == 'pull_request'
+        run: python scripts/generate.py --check
+
+      # On push to main / manual run: regenerate the feeds.
+      - name: Generate feeds
+        if: github.event_name != 'pull_request'
+        run: python scripts/generate.py
+
+      # Commit regenerated feeds back. Pushes made with GITHUB_TOKEN do NOT
+      # re-trigger this workflow, so there is no infinite loop.
+      - name: Commit changes
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No feed changes to commit."
+          else
+            git commit -m "chore: regenerate recipe feeds [skip ci]"
+            git push
+          fi

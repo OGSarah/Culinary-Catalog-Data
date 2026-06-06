@@ -4,8 +4,8 @@
       "uuid": "c2a4b6d8-1e3f-4a5b-9c7d-8e0f1a2b3c4d",
       "name": "Chocolate Gateau",
       "cuisine": "French",
-      "photo_url_small": "https://picsum.photos/seed/gateau-sm/300/200",
-      "photo_url_large": "https://picsum.photos/seed/gateau-lg/600/400",
+      "photo_url_small": "https://www.themealdb.com/images/media/meals/tqtywx1468317395.jpg/small",
+      "photo_url_large": "https://www.themealdb.com/images/media/meals/tqtywx1468317395.jpg/large",
       "source_url": "https://www.google.com/search?q=chocolate+gateau+recipe",
       "youtube_url": "https://www.youtube.com/results?search_query=chocolate+gateau+recipe"
     },
@@ -13,8 +13,8 @@
       "uuid": "d9b1cdef-8fa0-4b12-9d6e-5f7081920314",
       "name": "Chinon Apple Tarts",
       "cuisine": "French",
-      "photo_url_small": "https://picsum.photos/seed/chinontart-sm/300/200",
-      "photo_url_large": "https://picsum.photos/seed/chinontart-lg/600/400",
+      "photo_url_small": "https://www.themealdb.com/images/media/meals/qtqwwu1511792650.jpg/small",
+      "photo_url_large": "https://www.themealdb.com/images/media/meals/qtqwwu1511792650.jpg/large",
       "source_url": "https://www.google.com/search?q=chinon+apple+tart+recipe",
       "youtube_url": "https://www.youtube.com/results?search_query=chinon+apple+tart+recipe"
     }

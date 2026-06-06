@@ -1,11 +1,20 @@
 {
   "recipes": [
     {
+      "uuid": "5da78862-78f0-47b3-9faa-ca018def7a85",
+      "name": "New York Cheesecake",
+      "cuisine": "American",
+      "photo_url_small": "https://www.themealdb.com/images/media/meals/swttys1511385853.jpg/small",
+      "photo_url_large": "https://www.themealdb.com/images/media/meals/swttys1511385853.jpg/large",
+      "source_url": "https://www.google.com/search?q=new+york+cheesecake+recipe",
+      "youtube_url": "https://www.youtube.com/results?search_query=new+york+cheesecake+recipe"
+    },
+    {
       "uuid": "a6e8fabc-5c7d-4e9f-8a3b-2c4d5e6f7081",
       "name": "Krispy Kreme Donut",
       "cuisine": "American",
-      "photo_url_small": "https://picsum.photos/seed/donut-sm/300/200",
-      "photo_url_large": "https://picsum.photos/seed/donut-lg/600/400",
+      "photo_url_small": "https://www.themealdb.com/images/media/meals/4i5cnx1587672171.jpg/small",
+      "photo_url_large": "https://www.themealdb.com/images/media/meals/4i5cnx1587672171.jpg/large",
       "source_url": "https://www.google.com/search?q=glazed+donut+recipe",
       "youtube_url": "https://www.youtube.com/results?search_query=glazed+donut+recipe"
     },
@@ -13,8 +22,8 @@
       "uuid": "03ed08b6-512a-414d-b0d5-0fba7e1a5f03",
       "name": "Strawberry Rhubarb Pie",
       "cuisine": "American",
-      "photo_url_small": "https://picsum.photos/seed/rhubarbpie-sm/300/200",
-      "photo_url_large": "https://picsum.photos/seed/rhubarbpie-lg/600/400",
+      "photo_url_small": "https://www.themealdb.com/images/media/meals/178z5o1585514569.jpg/small",
+      "photo_url_large": "https://www.themealdb.com/images/media/meals/178z5o1585514569.jpg/large",
       "source_url": "https://www.google.com/search?q=strawberry+rhubarb+pie+recipe",
       "youtube_url": "https://www.youtube.com/results?search_query=strawberry+rhubarb+pie+recipe"
     }
