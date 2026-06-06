@@ -128,9 +128,13 @@ The `Build recipe feeds` workflow (`.github/workflows/build-recipes.yml`):
 - **Pull requests** — runs `generate.py --check`: validates the dataset and
   fails if any feed would change, guaranteeing committed artifacts always match
   the source.
-- **Push to `main` / manual dispatch** — regenerates all feeds and commits them
-  back using the built-in `GITHUB_TOKEN`. Token-authored pushes do not
-  re-trigger workflows, so there is no build loop.
+- **Push to `main` / manual dispatch** — fetches real `youtube_url` and
+  `source_url` values from TheMealDB (`enrich_links.py`), regenerates all feeds,
+  and commits them back using the built-in `GITHUB_TOKEN`. Token-authored
+  pushes do not re-trigger workflows, so there is no build loop. Enrichment runs
+  as a soft step: if TheMealDB is briefly unreachable the build still succeeds
+  with the links already in place, and it only fills search-fallback links so
+  any URL set by hand is preserved.
 
 Validation rejects missing or empty required fields, malformed UUIDs, and
 duplicate UUIDs, with actionable per-record error messages in the run log.
@@ -146,6 +150,22 @@ python scripts/generate.py          # validate, then (re)write all feeds
 python scripts/generate.py --check  # validate only; non-zero exit if feeds are stale
 ```
 
+### Populating real video/source links
+
+This runs automatically in CI on every push to `main`, so you normally don't
+need to do anything. To run it locally — for example to preview the links
+before pushing — use:
+
+```bash
+python scripts/enrich_links.py     # fill real YouTube/source URLs from TheMealDB
+python scripts/generate.py         # rebuild feeds
+```
+
+`enrich_links.py` fetches each dish's canonical `youtube_url` (a real
+`youtube.com/watch?v=…` link) and `source_url` from TheMealDB by meal ID. It is
+idempotent, stdlib-only, replaces only search-fallback links (so hand-set URLs
+survive), and leaves any dish not in its ID map untouched.
+
 ---
 
 ## Repository layout
@@ -155,7 +175,8 @@ python scripts/generate.py --check  # validate only; non-zero exit if feeds are 
 ├── data/
 │   └── recipes.master.json         Source of truth (authored)
 ├── scripts/
-│   └── generate.py                 Validator and feed generator
+│   ├── generate.py                 Validator and feed generator
+│   └── enrich_links.py             Pull real YouTube/source URLs from TheMealDB
 ├── cuisine/                        Generated per-cuisine feeds
 ├── recipes.json                    Generated
 ├── desserts.json                   Generated
@@ -176,7 +197,6 @@ python scripts/generate.py --check  # validate only; non-zero exit if feeds are 
   correctly in a web view.
 - **Visibility.** The repository must be public for GitHub Pages on the free
   tier.
-
   ## License
 
 Released under the [MIT License](LICENSE). © 2026 SarahUniverse
