@@ -1,4 +1,4 @@
-# Culinary Catalog — Data Service
+# Culinary Catalog: Data Service
 
 Backing data for the [**Culinary Catalog**](https://github.com/OGSarah/Culinary-Catalog)
 iOS app: a set of versioned JSON feeds describing dessert recipes, served as
