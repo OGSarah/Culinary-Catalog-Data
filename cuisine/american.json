@@ -6,8 +6,8 @@
       "cuisine": "American",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/swttys1511385853.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/swttys1511385853.jpg/large",
-      "source_url": "https://www.google.com/search?q=new+york+cheesecake+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=new+york+cheesecake+recipe"
+      "source_url": "https://www.bbcgoodfood.com/recipes/2869/new-york-cheesecake",
+      "youtube_url": "https://www.youtube.com/watch?v=tspdJ6hxqnc"
     },
     {
       "uuid": "a6e8fabc-5c7d-4e9f-8a3b-2c4d5e6f7081",
@@ -15,8 +15,8 @@
       "cuisine": "American",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/4i5cnx1587672171.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/4i5cnx1587672171.jpg/large",
-      "source_url": "https://www.google.com/search?q=glazed+donut+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=glazed+donut+recipe"
+      "source_url": "https://www.mythirtyspot.com/krispy-kreme-copycat-recipe-for/",
+      "youtube_url": "https://www.youtube.com/watch?v=SamYg6IUGOI"
     },
     {
       "uuid": "03ed08b6-512a-414d-b0d5-0fba7e1a5f03",
@@ -24,8 +24,8 @@
       "cuisine": "American",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/178z5o1585514569.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/178z5o1585514569.jpg/large",
-      "source_url": "https://www.google.com/search?q=strawberry+rhubarb+pie+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=strawberry+rhubarb+pie+recipe"
+      "source_url": "https://www.joyofbaking.com/StrawberryRhubarbPie.html",
+      "youtube_url": "https://www.youtube.com/watch?v=tGw5Pwm4YA0"
     }
   ]
 }

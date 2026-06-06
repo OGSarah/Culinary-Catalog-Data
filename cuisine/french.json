@@ -6,8 +6,8 @@
       "cuisine": "French",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/tqtywx1468317395.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/tqtywx1468317395.jpg/large",
-      "source_url": "https://www.google.com/search?q=chocolate+gateau+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=chocolate+gateau+recipe"
+      "source_url": "http://www.goodtoknow.co.uk/recipes/536028/chocolate-gateau",
+      "youtube_url": "https://www.youtube.com/watch?v=dsJtgmAhFF4"
     },
     {
       "uuid": "d9b1cdef-8fa0-4b12-9d6e-5f7081920314",
@@ -15,8 +15,8 @@
       "cuisine": "French",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/qtqwwu1511792650.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/qtqwwu1511792650.jpg/large",
-      "source_url": "https://www.google.com/search?q=chinon+apple+tart+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=chinon+apple+tart+recipe"
+      "source_url": "https://www.bbcgoodfood.com/recipes/chinon-apple-tarts",
+      "youtube_url": "https://www.youtube.com/watch?v=5dAW9HQgtCk"
     }
   ]
 }

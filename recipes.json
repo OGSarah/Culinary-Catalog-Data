@@ -6,8 +6,8 @@
       "cuisine": "Malaysian",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/adxcbq1619787919.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/adxcbq1619787919.jpg/large",
-      "source_url": "https://www.google.com/search?q=apam+balik+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=apam+balik+recipe"
+      "source_url": "https://www.nyonyacooking.com/recipes/apam-balik~SJ5WuvsDf9WQ",
+      "youtube_url": "https://www.youtube.com/watch?v=6R8ffRRJcrg"
     },
     {
       "uuid": "eed6005f-f8c8-451f-98d0-4088e2b40eb6",
@@ -16,7 +16,7 @@
       "photo_url_small": "https://www.themealdb.com/images/media/meals/wyrqqq1468233628.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/wyrqqq1468233628.jpg/large",
       "source_url": "https://www.google.com/search?q=bakewell+tart+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=bakewell+tart+recipe"
+      "youtube_url": "https://www.youtube.com/watch?v=1ahpSTf_Pvk"
     },
     {
       "uuid": "b6f61c17-717c-47b9-8952-784f5366ded0",
@@ -25,7 +25,7 @@
       "photo_url_small": "https://www.themealdb.com/images/media/meals/uuxwvq1483907861.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/uuxwvq1483907861.jpg/large",
       "source_url": "https://www.google.com/search?q=eton+mess+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=eton+mess+recipe"
+      "youtube_url": "https://www.youtube.com/watch?v=43WgiNq54L8"
     },
     {
       "uuid": "f8b20884-1e54-4e72-a417-dabbc8d91f12",
@@ -33,8 +33,8 @@
       "cuisine": "British",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/xqqqtu1511637379.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/xqqqtu1511637379.jpg/large",
-      "source_url": "https://www.google.com/search?q=sticky+toffee+pudding+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=sticky+toffee+pudding+recipe"
+      "source_url": "https://www.bbc.co.uk/food/recipes/marys_sticky_toffee_41970",
+      "youtube_url": "https://www.youtube.com/watch?v=Wytv3bjqJII"
     },
     {
       "uuid": "44407b47-28f7-433c-9f08-ac7b2c9fdce7",
@@ -42,8 +42,8 @@
       "cuisine": "British",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/wprvrw1511641295.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/wprvrw1511641295.jpg/large",
-      "source_url": "https://www.google.com/search?q=treacle+tart+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=treacle+tart+recipe"
+      "source_url": "https://www.bbc.co.uk/food/recipes/mary_berrys_treacle_tart_28524",
+      "youtube_url": "https://www.youtube.com/watch?v=YMmgKCNcqwI"
     },
     {
       "uuid": "5da78862-78f0-47b3-9faa-ca018def7a85",
@@ -51,8 +51,8 @@
       "cuisine": "American",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/swttys1511385853.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/swttys1511385853.jpg/large",
-      "source_url": "https://www.google.com/search?q=new+york+cheesecake+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=new+york+cheesecake+recipe"
+      "source_url": "https://www.bbcgoodfood.com/recipes/2869/new-york-cheesecake",
+      "youtube_url": "https://www.youtube.com/watch?v=tspdJ6hxqnc"
     },
     {
       "uuid": "c2a4b6d8-1e3f-4a5b-9c7d-8e0f1a2b3c4d",
@@ -60,8 +60,8 @@
       "cuisine": "French",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/tqtywx1468317395.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/tqtywx1468317395.jpg/large",
-      "source_url": "https://www.google.com/search?q=chocolate+gateau+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=chocolate+gateau+recipe"
+      "source_url": "http://www.goodtoknow.co.uk/recipes/536028/chocolate-gateau",
+      "youtube_url": "https://www.youtube.com/watch?v=dsJtgmAhFF4"
     },
     {
       "uuid": "d3b5c7e9-2f4a-4b6c-8d0e-9f1a2b3c4d5e",
@@ -69,8 +69,8 @@
       "cuisine": "Portuguese",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/vmz7gl1614350221.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/vmz7gl1614350221.jpg/large",
-      "source_url": "https://www.google.com/search?q=pasteis+de+nata+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=pasteis+de+nata+recipe"
+      "source_url": "https://www.olivemagazine.com/recipes/baking-and-desserts/portuguese-custard-tarts/",
+      "youtube_url": "https://www.youtube.com/watch?v=lWLCxui1Mw8"
     },
     {
       "uuid": "e4c6d8fa-3a5b-4c7d-9e1f-0a2b3c4d5e6f",
@@ -78,8 +78,8 @@
       "cuisine": "British",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/vrspxv1511722107.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/vrspxv1511722107.jpg/large",
-      "source_url": "https://www.google.com/search?q=carrot+cake+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=carrot+cake+recipe"
+      "source_url": "https://www.bbc.co.uk/food/recipes/classic_carrot_cake_08513",
+      "youtube_url": "https://www.youtube.com/watch?v=asjZ7iTrGKA"
     },
     {
       "uuid": "a6e8fabc-5c7d-4e9f-8a3b-2c4d5e6f7081",
@@ -87,8 +87,8 @@
       "cuisine": "American",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/4i5cnx1587672171.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/4i5cnx1587672171.jpg/large",
-      "source_url": "https://www.google.com/search?q=glazed+donut+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=glazed+donut+recipe"
+      "source_url": "https://www.mythirtyspot.com/krispy-kreme-copycat-recipe-for/",
+      "youtube_url": "https://www.youtube.com/watch?v=SamYg6IUGOI"
     },
     {
       "uuid": "b7f9abcd-6d8e-4fa0-9b4c-3d5e6f708192",
@@ -97,7 +97,7 @@
       "photo_url_small": "https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg/large",
       "source_url": "https://www.google.com/search?q=apple+frangipan+tart+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=apple+frangipan+tart+recipe"
+      "youtube_url": "https://www.youtube.com/watch?v=rp8Slv4INLk"
     },
     {
       "uuid": "c8a0bcde-7e9f-4a01-8c5d-4e6f70819203",
@@ -105,8 +105,8 @@
       "cuisine": "Italian",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/1549542877.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/1549542877.jpg/large",
-      "source_url": "https://www.google.com/search?q=budino+di+ricotta+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=budino+di+ricotta+recipe"
+      "source_url": "https://thehappyfoodie.co.uk/recipes/ricotta-cake-budino-di-ricotta",
+      "youtube_url": "https://www.youtube.com/watch?v=6dzd6Ra6sb4"
     },
     {
       "uuid": "d9b1cdef-8fa0-4b12-9d6e-5f7081920314",
@@ -114,8 +114,8 @@
       "cuisine": "French",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/qtqwwu1511792650.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/qtqwwu1511792650.jpg/large",
-      "source_url": "https://www.google.com/search?q=chinon+apple+tart+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=chinon+apple+tart+recipe"
+      "source_url": "https://www.bbcgoodfood.com/recipes/chinon-apple-tarts",
+      "youtube_url": "https://www.youtube.com/watch?v=5dAW9HQgtCk"
     },
     {
       "uuid": "686ab46f-8f89-465f-ab6a-47030ef24b8d",
@@ -123,8 +123,8 @@
       "cuisine": "British",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/tqrrsq1511723764.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/tqrrsq1511723764.jpg/large",
-      "source_url": "https://www.google.com/search?q=rock+cakes+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=rock+cakes+recipe"
+      "source_url": "https://www.bbc.co.uk/food/recipes/rock_cakes_03094",
+      "youtube_url": "https://www.youtube.com/watch?v=tY3taZO3Aro"
     },
     {
       "uuid": "03ed08b6-512a-414d-b0d5-0fba7e1a5f03",
@@ -132,8 +132,8 @@
       "cuisine": "American",
       "photo_url_small": "https://www.themealdb.com/images/media/meals/178z5o1585514569.jpg/small",
       "photo_url_large": "https://www.themealdb.com/images/media/meals/178z5o1585514569.jpg/large",
-      "source_url": "https://www.google.com/search?q=strawberry+rhubarb+pie+recipe",
-      "youtube_url": "https://www.youtube.com/results?search_query=strawberry+rhubarb+pie+recipe"
+      "source_url": "https://www.joyofbaking.com/StrawberryRhubarbPie.html",
+      "youtube_url": "https://www.youtube.com/watch?v=tGw5Pwm4YA0"
     }
   ]
 }
