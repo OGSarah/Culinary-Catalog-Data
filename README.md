@@ -176,3 +176,7 @@ python scripts/generate.py --check  # validate only; non-zero exit if feeds are 
   links that open correctly in a web view.
 - **Visibility.** The repository must be public for GitHub Pages on the free
   tier.
+
+## License
+
+Released under the [MIT License](LICENSE). © 2026 SarahUniverse
