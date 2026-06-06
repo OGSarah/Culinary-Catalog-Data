@@ -1,0 +1,22 @@
+{
+  "recipes": [
+    {
+      "uuid": "a6e8fabc-5c7d-4e9f-8a3b-2c4d5e6f7081",
+      "name": "Krispy Kreme Donut",
+      "cuisine": "American",
+      "photo_url_small": "https://picsum.photos/seed/donut-sm/300/200",
+      "photo_url_large": "https://picsum.photos/seed/donut-lg/600/400",
+      "source_url": "https://www.google.com/search?q=glazed+donut+recipe",
+      "youtube_url": "https://www.youtube.com/results?search_query=glazed+donut+recipe"
+    },
+    {
+      "uuid": "03ed08b6-512a-414d-b0d5-0fba7e1a5f03",
+      "name": "Strawberry Rhubarb Pie",
+      "cuisine": "American",
+      "photo_url_small": "https://picsum.photos/seed/rhubarbpie-sm/300/200",
+      "photo_url_large": "https://picsum.photos/seed/rhubarbpie-lg/600/400",
+      "source_url": "https://www.google.com/search?q=strawberry+rhubarb+pie+recipe",
+      "youtube_url": "https://www.youtube.com/results?search_query=strawberry+rhubarb+pie+recipe"
+    }
+  ]
+}

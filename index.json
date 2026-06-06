@@ -1,0 +1,37 @@
+{
+  "generated_count": 15,
+  "feeds": [
+    {
+      "path": "cuisine/american.json",
+      "count": 2
+    },
+    {
+      "path": "cuisine/british.json",
+      "count": 7
+    },
+    {
+      "path": "cuisine/french.json",
+      "count": 2
+    },
+    {
+      "path": "cuisine/italian.json",
+      "count": 2
+    },
+    {
+      "path": "cuisine/malaysian.json",
+      "count": 1
+    },
+    {
+      "path": "cuisine/portuguese.json",
+      "count": 1
+    },
+    {
+      "path": "desserts.json",
+      "count": 15
+    },
+    {
+      "path": "recipes.json",
+      "count": 15
+    }
+  ]
+}

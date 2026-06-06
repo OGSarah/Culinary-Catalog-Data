@@ -1,0 +1,22 @@
+{
+  "recipes": [
+    {
+      "uuid": "b1f3a2c4-5d6e-4f7a-8b9c-0d1e2f3a4b5c",
+      "name": "Tiramisu",
+      "cuisine": "Italian",
+      "photo_url_small": "https://picsum.photos/seed/tiramisu-sm/300/200",
+      "photo_url_large": "https://picsum.photos/seed/tiramisu-lg/600/400",
+      "source_url": "https://www.google.com/search?q=tiramisu+recipe",
+      "youtube_url": "https://www.youtube.com/results?search_query=tiramisu+recipe"
+    },
+    {
+      "uuid": "c8a0bcde-7e9f-4a01-8c5d-4e6f70819203",
+      "name": "Budino Di Ricotta",
+      "cuisine": "Italian",
+      "photo_url_small": "https://picsum.photos/seed/budino-sm/300/200",
+      "photo_url_large": "https://picsum.photos/seed/budino-lg/600/400",
+      "source_url": "https://www.google.com/search?q=budino+di+ricotta+recipe",
+      "youtube_url": "https://www.youtube.com/results?search_query=budino+di+ricotta+recipe"
+    }
+  ]
+}
