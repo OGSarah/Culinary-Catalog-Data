@@ -1,5 +1,7 @@
 # Culinary Catalog: Data Service
 
+[![Build recipe feeds](https://github.com/OGSarah/culinary-catalog-data/actions/workflows/build-recipes.yml/badge.svg)](https://github.com/OGSarah/culinary-catalog-data/actions/workflows/build-recipes.yml)
+
 Backing data for the [**Culinary Catalog**](https://github.com/OGSarah/Culinary-Catalog)
 iOS app: a set of versioned JSON feeds describing dessert recipes, served as
 static assets over HTTPS via GitHub Pages.
@@ -97,10 +99,10 @@ change.
 Once GitHub Pages is enabled, feeds are served from the repository root:
 
 ```
-https://<owner>.github.io/<repo>/recipes.json
-https://<owner>.github.io/<repo>/desserts.json
-https://<owner>.github.io/<repo>/cuisine/british.json
-https://<owner>.github.io/<repo>/index.json
+https://ogsarah.github.io/culinary-catalog-data/recipes.json
+https://ogsarah.github.io/culinary-catalog-data/desserts.json
+https://ogsarah.github.io/culinary-catalog-data/cuisine/british.json
+https://ogsarah.github.io/culinary-catalog-data/index.json
 ```
 
 All endpoints are HTTPS, so no App Transport Security exceptions are required in
@@ -195,8 +197,12 @@ survive), and leaves any dish not in its ID map untouched.
   `/large` full-size variants), the same imagery the dishes originate from.
   `source_url` and `youtube_url` resolve to stable search links that open
   correctly in a web view.
+- **Attribution.** Recipe data and imagery are sourced from [TheMealDB](https://www.themealdb.com); the MIT license below covers this repository's code and configuration, not that third-party content.
 - **Visibility.** The repository must be public for GitHub Pages on the free
   tier.
-  ## License
+
+---
+
+## License
 
 Released under the [MIT License](LICENSE). © 2026 SarahUniverse
